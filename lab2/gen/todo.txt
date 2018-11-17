@@ -1,0 +1,13 @@
+To Do List:
+
+- Finish cancer cell analysis
+
+- Write about deep learning approaches for visual cancer cell identification
+
+- Send updated draft to Assieh
+
+
+----
+- Buy cheese and ham
+
+- Call grandma
