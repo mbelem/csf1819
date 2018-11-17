@@ -1,0 +1,200 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=dateReceived)(B9=ProtoThreadFlags)(BA=junkscore)(BB=X-GM-LABELS)
+  (BC=folderName)(BD=X-GM-MSGID)(BE=X-GM-THRID)(BF=replyTo)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=bccList)
+  (8F=msgThreadId)(90=threadId)(91=threadFlags)(92=threadNewestMsgDate)
+  (93=children)(94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)(AD=forceReparse)
+  (AE=fixedBadRefThreading)(AF=onlineName)(B0=MRUTime)(B1=highestModSeq)
+  (B2=imapFlags)(B3=charSetOverride)(B4=charSet)(B5=highestRecordedUID)
+  (B6=ns:msg:db:row:scope:pending:all)(B7=ns:msg:db:table:kind:pending)>
+<(90=2)(8D=5bdb1fa8)(81=0)(80=1)>
+[1:m(^9C=2)(^90=2)(^92^8D)(^91=0)(^93=1)]
+<(99=3)(97=5bdb2287)>[2:m(^9C=3)(^90=3)(^92^97)(^91=0)(^93=1)]
+<(A0=4)(9E=5bdb25a7)>[3:m(^9C=4)(^90=4)(^92^9E)(^91=0)(^93=1)]
+<(A8=7)(B8=5bdc8252)>[4:m(^9C=7)(^90=7)(^92^B8)(^91=0)(^93=2)]
+<(B0=8)(AE=5bdc76b7)>[5:m(^9C=8)(^90=8)(^92^AE)(^91=0)(^93=1)]
+<(C4=b)(C2=5bdcd0d8)>[6:m(^9C=b)(^90=b)(^92^C2)(^91=0)(^93=1)]
+<(87=c)(CB=5bdd9e0e)>[7:m(^9C=c)(^90=c)(^92^CB)(^91=0)(^93=1)]
+<(D3=d)(D1=5be0da4b)>[8:m(^9C=d)(^90=d)(^92^D1)(^91=0)(^93=1)(^94=1)]
+<(DB=e)(D9=5be22f12)>[9:m(^9C=e)(^90=e)(^92^D9)(^91=0)(^93=1)(^94=1)]
+<(E2=f)(E0=5be24331)>[A:m(^9C=f)(^90=f)(^92^E0)(^91=0)(^93=1)(^94=1)]
+<(B5=10)(E7=5be36c2f)>[B:m(^9C=10)(^90=10)(^92^E7)(^91=0)(^93=1)]
+<(BA=11)(ED=5be36c0f)>[C:m(^9C=11)(^90=11)(^92^ED)(^91=0)(^93=1)]
+<(F5=12)(F3=5be4bff6)>[D:m(^9C=12)(^90=12)(^92^F3)(^91=0)(^93=1)]
+<(FB=13)(F9=5be62465)>[E:m(^9C=13)(^90=13)(^92^F9)(^91=0)(^93=1)(^94=1)]
+<(101=14)(FF=5be6e689)>[F:m(^9C=14)(^90=14)(^92^FF)(^91=0)(^93=1)(^94=1)]
+<(108=16)(10C=5be8aa24)>[10:m(^9C=16)(^90=16)(^92^10C)(^91=0)(^93=2)]
+<(117=19)(114=5be9aff6)>[11:m(^9C=19)(^90=19)(^92^114)(^91=0)(^93=1)
+    (^94=1)]
+
+<(A2=Diogo Barradas <dmbb84@gmail.com>)(B4
+    =Sally Jones <jones.sally1993@gmail.com>)(103=Movies night out)
+  (104=8CBDC5BA-EADE-422F-9CBB-D2AD58BA5ACC@gmail.com)(105=5be8a57a)
+  (106=us-ascii)(107=142f)(8F=ffffffff)(109=1616876272124578904)(B3
+    ="\\\\Important" "\\\\Inbox")(10A
+    =d9f90cd2-4cf8-3f75-034b-4ae9f7ef5ef7@gmail.com)(10B
+    =<8CBDC5BA-EADE-422F-9CBB-D2AD58BA5ACC@gmail.com>)(A6=utf-8)(10D=4b2)
+  (10F=1616877522080226260)(BE="\\\\Sent")>
+{16:^80 {(k^98:c)(s=9)10:m } [16(^88=3)(^8B=0)(^82^A2)(^85^B4)(^81^103)
+    (^83^104)(^86^105)(^B8^105)(^89=1)(^96^106)(^87^107)(^9B^8F)(^8F=16)
+    (^B9=0)(^BD^109)(^BE^109)(^BB^B3)]
+  [17(^88=11)(^8B=0)(^82^B4)(^85^A2)(^81^103)(^83^10A)(^84^10B)(^86^10C)
+    (^B8^10C)(^89=1)(^96^A6)(^87=4b2)(^9B=16)(^8F=16)(^B9=0)(^BD^10F)
+    (^BE^109)(^BB^BE)]}
+
+<(89
+    ==?utf-8?Q?World=20Cancer=20Research=20Fund=20International?= <internation\
+al@wcrf.org>)(8A
+    ="=?utf-8?Q?jones.sally1993=40gmail.com?=" <jones.sally1993@gmail.com>)
+  (8B
+    =World Cancer Research Fund International email list: Please Confirm Subsc\
+ription)(8C
+    =9656357.20181101154544.5bdb1fa89b38e4.13169444@mail4.mcsignup.com)
+  (8E=51d2)(91=1615946994311539043)(92="\\\\Inbox")(93
+    ="Anonymousemail.me" <noreply@anonymousemail.me>)(94
+    =jones.sally1993@gmail.com)(95=Humanitary help)(96
+    =XyqXhxl7vBdvtXsbrtXhgi5AgEVR1Pmr8TfnqU88@anonymousemail.me)(98=1694)
+  (9A=1615947764985214171)(9B
+    ==?utf-8?Q?Sally?= <jones.sally1993@gmail.com>)(9C
+    ==?utf-8?Q?Thank=20you?=)(9D
+    =61881cc07a526eec912bffa9f.e4571e99ed.20181101161112.932a66956e.367c00ea@m\
+ail25.suw11.mcdlv.net)(9F=e04b)(A1=1615948603764621438)(A3=Dinner today)
+  (A4=02654B35-0382-49EB-9258-BE0E065AD8DD@gmail.com)(A5=5bdc6da6)(A7=140f)
+  (A9=1616036651565170292)(AA=<noreply@bandcamp.com>)(AB
+    =Bandcamp <noreply@bandcamp.com>)(AC=Activate your account)(AD
+    =9BHsie1zTlqvZRXWB3S8Fw@ismtpd0017p1las1.sendgrid.net)(AF=1cbc)
+  (B2=1616039084097870925)(B6
+    =31c22120-a916-13b4-3b71-5be0308578c9@gmail.com)(B7
+    =<02654B35-0382-49EB-9258-BE0E065AD8DD@gmail.com>)(B9=437)(BD
+    =1616042199112309679)(BF
+    ="Immune Regulation News" <info@connexoncreative.com>)(C0
+    =Review - Two to Tango: Dialog between Immunity and Stem Cells in Health a\
+nd Disease)(C1=62fcf488504b42269f25ac2e3241d119@1832)(C3=193aa)(C5
+    =1616063792143499298)(C6
+    =American Institute for Cancer Research <aicrweb@aicr.org>)(C7
+    ="American Institute for Cancer Research" <aicrweb@aicr.org>)(C8
+    =<jones.sally1993@gmail.com>)(C9=Welcome)(CA
+    =50a1e73041fb42a6ba47badea1d75485@aicr.org)(CC=6f86)(CD
+    =1616118362910755195)(CE
+    ="Cell Therapy News" <info@connexoncreative.com>)(CF
+    =Top story - Safe and Effective Superoxide Dismutase 1 Silencing Using Art\
+ificial MicroRNA in Macaques)(D0=811d558b90114c52925b37bbac718df4@1832)
+  (D2=23df5)(D5=1616340998680846116)(D6
+    ="Pancreatic Cell News" <info@connexoncreative.com>)(D7
+    =The Role of GLI-SOX2 Signaling Axis for Gemcitabine Resistance in Pancrea\
+tic Cancer)(D8=7a5f3a7f818b44d0be89b1983c3a2ddc@1832)(DA=19499)(DC
+    =1616433040710949939)(DD=Google <no-reply@accounts.google.com>)
+  (DE=Help us protect you: Security advice from Google)(DF
+    =L7JZuri1bhlLww8bM4bV2A.0@notifications.google.com)(E1=3f28)(E3
+    =1616456024155094103)(E4
+    ="Cancer Stem Cell News" <info@connexoncreative.com>)(E5
+    =PRMT2 Links Histone H3R8 Asymmetric Dimethylation to Oncogenic Activation\
+ and Tumorigenesis of Glioblastoma)(E6
+    =6d1352b5f2d24503a6e9e767fb60fa89@1832)(E8=1bafc)(E9
+    =1616517868019860897)(EA
+    ="Neural Cell News" <info@connexoncreative.com>)(EB
+    =Allen Institute for Brain Science | A Comprehensive 'Parts List' of the B\
+rain Built from Its Components, the Cells)(EC
+    =2e5a4b518569438f8f670ebd0732ecc1@1832)(EE=1f9e3)(EF
+    =1616518210740756782)(F0="Shannon Seemann" <s.seemann@stemcell.com>)
+  (F1=Resources for your Research)(F2
+    =d12a671b20234ef19efdfd80589580a5@1832)(F4=1636e)(F6
+    =1616608512392002782)(F7
+    =Top story! The Metabolite BH4 Controls T Cell Proliferation in Autoimmuni\
+ty and Cancer)(F8=5f3f0b8580574406804921ab69da6709@1832)(FA=1f824)(FC
+    =1616704777029535667)(FD=Take Charge)(FE
+    =845f1e91227d40b39e942c6b39baed18@aicr.org)(100=7383)(102
+    =1616756294605473102)(115=10000000)(110
+    =Biochemistry Campus IT Department <jason_halloween@protonmail.com>)
+  (111="jones.sally1993@gmail.com" <jones.sally1993@gmail.com>)(112
+    =Important Security Update)(113
+    =tGp8DH6gIslwDGPaElixSx9YGe0FfMFBHFC0J1OO0QLSI88TJnu4UsdlVpp0MdlTtBM738OBP\
+ykK1NXWWfz-lTRKJwoOAZ9-Dg_OGVuF9RY=@protonmail.com)(116=e181c6)(118
+    =1616947821267814010)>
+{1:^80 {(k^97:c)(s=9)} 
+  [2(^88=1)(^8B=0)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^86^8D)(^B8^8D)(^89=1)
+    (^87^8E)(^9B^8F)(^8F=2)(^B9=0)(^BD^91)(^BE^91)(^BB^92)]
+  [3(^88=1)(^8B=0)(^82^93)(^85^94)(^81^95)(^83^96)(^86^97)(^B8^97)(^89=1)
+    (^87^98)(^9B^8F)(^8F=3)(^B9=0)(^BD^9A)(^BE^9A)(^BB^92)]
+  [4(^88=1)(^8B=0)(^82^89)(^85^9B)(^81^9C)(^83^9D)(^86^9E)(^B8^9E)(^89=1)
+    (^87^9F)(^9B^8F)(^8F=4)(^B9=0)(^BD^A1)(^BE^A1)(^BB^92)]
+  [7(^88=3)(^8B=0)(^82^A2)(^85^94)(^81^A3)(^83^A4)(^86^A5)(^B8^A5)(^89=1)
+    (^96^A6)(^87^A7)(^9B^8F)(^8F=7)(^B9=0)(^BD^A9)(^BE^A9)(^BB^92)]
+  [8(^88=1)(^BF^AA)(^8B=0)(^82^AB)(^85^94)(^81^AC)(^83^AD)(^86^AE)(^B8^AE)
+    (^89=1)(^87^AF)(^9B^8F)(^8F=8)(^B9=0)(^BD^B2)(^BE^B2)(^BB^B3)]
+  [A(^88=11)(^8B=0)(^82^B4)(^85^A2)(^81^A3)(^83^B6)(^84^B7)(^86^B8)
+    (^B8^B8)(^89=1)(^96^A6)(^87^B9)(^9B=7)(^8F=7)(^B9=0)(^BD^BD)(^BE^A9)
+    (^BB^BE)]
+  [B(^88=1)(^8B=0)(^82^BF)(^85^94)(^81^C0)(^83^C1)(^86^C2)(^B8^C2)(^89=1)
+    (^87^C3)(^9B^8F)(^8F=b)(^B9=0)(^BD^C5)(^BE^C5)(^BB^92)]
+  [C(^88=1)(^BF^C6)(^8B=0)(^82^C7)(^85^C8)(^81^C9)(^83^CA)(^86^CB)(^B8^CB)
+    (^89=1)(^87^CC)(^9B^8F)(^8F=c)(^B9=0)(^BD^CD)(^BE^CD)(^BB^92)]
+  [D(^88=0)(^8B=0)(^82^CE)(^85^94)(^81^CF)(^83^D0)(^86^D1)(^B8^D1)(^89=1)
+    (^87^D2)(^9B^8F)(^8F=d)(^B9=0)(^BD^D5)(^BE^D5)(^BB^92)]
+  [E(^88=0)(^8B=0)(^82^D6)(^85^94)(^81^D7)(^83^D8)(^86^D9)(^B8^D9)(^89=1)
+    (^87^DA)(^9B^8F)(^8F=e)(^B9=0)(^BD^DC)(^BE^DC)(^BB^92)]
+  [F(^88=0)(^8B=0)(^82^DD)(^85^94)(^81^DE)(^83^DF)(^86^E0)(^B8^E0)(^89=1)
+    (^87^E1)(^9B^8F)(^8F=f)(^B9=0)(^BD^E3)(^BE^E3)(^BB^92)]
+  [10(^88=1)(^8B=0)(^82^E4)(^85^94)(^81^E5)(^83^E6)(^86^E7)(^B8^E7)
+    (^89=1)(^87^E8)(^9B^8F)(^8F=10)(^B9=0)(^BD^E9)(^BE^E9)(^BB^92)]
+  [11(^88=1)(^8B=0)(^82^EA)(^85^94)(^81^EB)(^83^EC)(^86^ED)(^B8^ED)
+    (^89=1)(^87^EE)(^9B^8F)(^8F=11)(^B9=0)(^BD^EF)(^BE^EF)(^BB^92)]
+  [12(^88=1)(^8B=0)(^82^F0)(^85^94)(^81^F1)(^83^F2)(^86^F3)(^B8^F3)
+    (^89=1)(^87^F4)(^9B^8F)(^8F=12)(^B9=0)(^BD^F6)(^BE^F6)(^BB^92)]
+  [13(^88=0)(^8B=0)(^82^BF)(^85^94)(^81^F7)(^83^F8)(^86^F9)(^B8^F9)
+    (^89=1)(^87^FA)(^9B^8F)(^8F=13)(^B9=0)(^BD^FC)(^BE^FC)(^BB^92)]
+  [14(^88=0)(^BF^C6)(^8B=0)(^82^C7)(^85^C8)(^81^FD)(^83^FE)(^86^FF)
+    (^B8^FF)(^89=1)(^87^100)(^9B^8F)(^8F=14)(^B9=0)(^BD^102)(^BE^102)
+    (^BB^92)]16 17 
+  [19(^88^115)(^8B=0)(^82^110)(^85^111)(^81^112)(^83^113)(^86^114)(^B8^114)
+    (^89=1)(^87^116)(^9B^8F)(^8F=19)(^B9=0)(^BD^118)(^BE^118)(^BB^92)]}
+{2:^80 {(k^98:c)(s=9)1:m } 2 }
+{3:^80 {(k^98:c)(s=9)2:m } 3 }
+{19:^80 {(k^98:c)(s=9)11:m } 19 }
+{4:^80 {(k^98:c)(s=9)3:m } 4 }
+{7:^80 {(k^98:c)(s=9)4:m } 7 A }
+{8:^80 {(k^98:c)(s=9)5:m } 8 }
+{B:^80 {(k^98:c)(s=9)6:m } B }
+{C:^80 {(k^98:c)(s=9)7:m } C }
+{D:^80 {(k^98:c)(s=9)8:m } D }
+{E:^80 {(k^98:c)(s=9)9:m } E }
+{F:^80 {(k^98:c)(s=9)A:m } F }
+{10:^80 {(k^98:c)(s=9)B:m } 10 }
+{11:^80 {(k^98:c)(s=9)C:m } 11 }
+{12:^80 {(k^98:c)(s=9)D:m } 12 }
+{13:^80 {(k^98:c)(s=9)E:m } 13 }
+{14:^80 {(k^98:c)(s=9)F:m } 14 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [2(^95^8B)]
+  [3(^95^95)]
+  [4(^95^9C)]
+  [7(^95^A3)]
+  [8(^95^AC)]
+  [B(^95^C0)]
+  [C(^95^C9)]
+  [D(^95^CF)]
+  [E(^95^D7)]
+  [F(^95^DE)]
+  [10(^95^E5)]
+  [11(^95^EB)]
+  [12(^95^F1)]
+  [13(^95^F7)]
+  [14(^95^FD)]
+  [16(^95^103)]
+  [19(^95^112)]}
+
+<(82=[Gmail]/All Mail)(83=8086014)(84=1542042677)(88=)(86=ee00)(BB=6)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AC=1)(^AD=0)(^AE=1)(^AF^82)(^88^83)(^A7^82)(^AA=0)(^B0^84)(^B1=)
+    (^B2^86)(^A8=c)(^B5=19)(^A1=13)(^A6=19)(^A2=6)]}

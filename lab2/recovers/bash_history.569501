@@ -1,0 +1,3 @@
+cd ~/Downloads/LiME/src/
+sudo insmod lime-4.15.0-38-generic.ko "path=/tmp/sally_mem format=lime"
+scp /tmp/sally_mem dmbb@turbina.gsd.inesc-id.pt:/home/dmbb/sally_mem_12

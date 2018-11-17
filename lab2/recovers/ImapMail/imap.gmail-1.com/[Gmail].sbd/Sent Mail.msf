@@ -1,0 +1,124 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=highestModSeq)(B9=imapFlags)(BA=charSetOverride)(BB=charSet)
+  (BC=highestRecordedUID)(BD=ns:msg:db:row:scope:pending:all)
+  (BE=ns:msg:db:table:kind:pending)(BF=dateReceived)(C0=ProtoThreadFlags)
+  (C1=X-GM-MSGID)(C2=X-GM-THRID)(C3=X-GM-LABELS)(C4=keywords)
+  (C5=imageSize)(C6=junkscore)(C7=recipient_names)(C8=folderName)
+  (C9=storeToken)(CA=gloda-id)(CB=gloda-dirty)(CC=notAPhishMessage)
+  (CD=account)(CE=pseudoHdr)(CF=ns:msg:db:row:scope:ops:all)
+  (D0=ns:msg:db:table:kind:ops)(D1=op)(D2=msgKey)(D3=opFlags)
+  (D4=newFlags)(D5=moveDest)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=statusOfset)(8C=numLines)
+  (8D=ccList)(8E=bccList)(8F=msgThreadId)(90=threadId)(91=threadFlags)
+  (92=threadNewestMsgDate)(93=children)(94=unreadChildren)
+  (95=threadSubject)(96=msgCharSet)(97=ns:msg:db:table:kind:msgs)
+  (98=ns:msg:db:table:kind:thread)(99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)(AD=forceReparse)
+  (AE=fixedBadRefThreading)(AF=onlineName)(B0=indexingPriority)
+  (B1=MRUTime)(B2=sortType)(B3=sortOrder)(B4=viewFlags)(B5=viewType)
+  (B6=sortColumns)(B7=columnStates)>
+<(97=2)(92=5bdc8252)(81=0)(80=1)>
+[1:m(^9C=2)(^90=2)(^92^92)(^91=0)(^93=1)]
+<(9F=4)>[2:m(^9C=4)(^90=4)(^92=0)(^91=0)(^93=1)]
+
+<(A3=91)(8C=Sally Jones <jones.sally1993@gmail.com>)(8D
+    =Diogo Barradas <dmbb84@gmail.com>)(8F=Dinner today)(90
+    =31c22120-a916-13b4-3b71-5be0308578c9@gmail.com)(91
+    =<02654B35-0382-49EB-9258-BE0E065AD8DD@gmail.com>)(93=utf-8)(94=437)
+  (96=ffffffff)(98=1616042199112309679)(99=1616036651565170292)(87=)
+  (A2=0|Diogo Barradas)(A4=48a)(A5=1c)(A9=31)(AB=93)(9A=Movies night out)
+  (9B=d9f90cd2-4cf8-3f75-034b-4ae9f7ef5ef7@gmail.com)(9C
+    =<8CBDC5BA-EADE-422F-9CBB-D2AD58BA5ACC@gmail.com>)(9D=5be8aa24)
+  (9E=4b2)(A0=1616877522080226260)(A1=1616876272124578904)(A6=1162)
+  (A7=505)(A8=21)(AA=32)>
+{1:^80 {(k^97:c)(s=9)} 
+  [2(^88=91)(^8B=0)(^82^8C)(^85^8D)(^81^8F)(^83^90)(^84^91)(^86^92)
+    (^BF^92)(^89=1)(^96^93)(^87^94)(^9B^96)(^8F=2)(^C0=0)(^C1^98)(^C2^99)
+    (^C3=)(^C7^A2)(^9D=0)(^C9=0)(^9E^A4)(^8C=1c)(^CA=31)]
+  [4(^88=93)(^8B=0)(^82^8C)(^85^8D)(^81^9A)(^83^9B)(^84^9C)(^86^9D)
+    (^BF^9D)(^89=1)(^96^93)(^87^9E)(^9B^96)(^8F=4)(^C0=0)(^C1^A0)(^C2^A1)
+    (^C3=)(^C7^A2)(^9D^A4)(^C9^A6)(^9E^A7)(^8C=21)(^CA=32)(^CB=1)(^8A=0)
+    (^C4=)]}
+{2:^80 {(k^98:c)(s=9)1:m } 2 }
+{4:^80 {(k^98:c)(s=9)2:m } 4 }[6:^80]
+{FFFFFFFD:^9A {(k^99:c)(s=9)} 
+  [2(^95^8F)]
+  [4(^95^9A)]}
+
+<(82=[Gmail]/Sent Mail)(83=8082214)(84=60)(85=1542042664)(86=12)(88
+    ={"threadCol":{"visible":true},"attachmentCol":{"visible":true},"flaggedCo\
+l":{"visible":true},"subjectCol":{"visible":true},"unreadButtonColHeader":{"vi\
+sible":true},"senderCol":{"visible":false},"recipientCol":{"visible":false},"c\
+orrespondentCol":{"visible":true},"junkStatusCol":{"visible":true},"dateCol":{\
+"visible":true},"locationCol":{"visible":false}})(89=4037)(8A=ee00)
+  (8B=5)(AE=6)(B7=425)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=0)(^AE=1)(^AF^82)(^88^83)(^A7^82)(^B0=60)(^B1^85)(^B2=12)
+    (^B3=1)(^B4=0)(^B5=0)(^B6=)(^B7^88)(^B8^89)(^B9^8A)(^A8=5)(^BC=4)
+    (^A1=2)(^A6=6)(^A9=2)(^A4^B7)]}
+
+<(B2=538f502b-9fc9-8497-6a54-7c79e6bf01a1@gmail.com)(B3
+    =<8CBDC5BA-EADE-422F-9CBB-D2AD58BA5ACC@gmail.com> <d9f90cd2-4cf8-3f75-034b\
+-4ae9f7ef5ef7@gmail.com>)(B4=5be9b453)(AC=98f)(B9=80)(AD=2447)>
+{1:^BD {(k^BE:c)(s=9)} 
+  [1(^83^B2)(^82^8C)(^85^8D)(^81^9A)(^84^B3)(^86^B4)(^BF^B4)(^96^93)
+    (^9E^B7)(^9D^AC)(^88=80)(^C9^AD)(^89=1)]}
+{1:^CF {(k^D0:c)(s=9)} }
+[6:^CF]
+
+@$${8{@
+@$$}8}@
+
+@$${9{@
+@$$}9}@
+
+@$${A{@
+[4:^80(^CB=0)]
+@$$}A}@
+
+@$${B{@
+[-2:m(^9C=4)(^90=4)(^92^B4)(^91=0)(^93=2)]
+
+<(BD=568)(BE=1616948975201941620)>
+{-1:^80 {(k^97:c)(s=9)} 
+  [-2(^88=91)(^8B=0)(^82^8C)(^85^8D)(^81^8F)(^83^90)(^84^91)(^86^92)
+    (^BF^92)(^89=1)(^96^93)(^87^94)(^9B^96)(^8F=2)(^C0=0)(^C1^98)(^C2^99)
+    (^C3=)(^C7^A2)(^9D=0)(^C9=0)(^9E^A4)(^8C=1c)(^CA=31)(^C4=)(^8A=0)]
+  4 
+  [-6(^88=91)(^8B=0)(^82^8C)(^85^8D)(^81^9A)(^83^B2)(^84^B3)(^86^B4)
+    (^BF^B4)(^96^93)(^9E^B7)(^9D^AC)(^C9^AD)(^89=1)(^87^BD)(^9B=4)(^8F=4)
+    (^C0=0)(^C1^BE)(^C2^A1)(^C3=)]}
+{-4:^80 {(k^98:c)(s=9)2:m } 4 6 }
+<(BB=4068)(B8=3)>[-1:^9F(^AC=1)(^AD=0)(^AE=1)(^AF^82)(^88^83)(^A7^82)
+    (^B0=60)(^B1^85)(^B2=12)(^B3=1)(^B4=0)(^B5=0)(^B6=)(^B7^88)(^B8^BB)
+    (^B9^8A)(^A8=5)(^BC=6)(^A1=3)(^A6=6)(^A9=0)(^A4^B7)]
+{-1:^BD {(k^BE:c)(s=9)} }
+[-1:^BD]
+@$$}B}@
+
+@$${C{@
+<(BF=1|Diogo Barradas)>[4:^80(^C7^BF)]
+[6:^80(^C7^BF)]
+[2:^80(^C7^BF)]
+@$$}C}@
+
+@$${D{@
+@$$}D}@
+
+@$${E{@
+@$$}E}@
+
+@$${F{@
+<(C0=33)>[-6:^80(^88=91)(^8B=0)(^82^8C)(^85^8D)(^81^9A)(^83^B2)(^84^B3)
+    (^86^B4)(^BF^B4)(^96^93)(^9E^B7)(^9D^AC)(^C9^AD)(^89=1)(^87^BD)
+    (^9B=4)(^8F=4)(^C0=0)(^C1^BE)(^C2^A1)(^C3=)(^C7^BF)(^C4=)(^8A=0)
+    (^CA=33)]
+@$$}F}@
