@@ -1,0 +1,1 @@
+{"list":[{"source":"imap://jones%2Esally1993%40gmail%2Ecom@imap.gmail.com:993/fetch%3EUID%3E/INBOX%3E22?part=1.2&filename=main","target":"/home/sally/Downloads/main","startTime":"2018-11-12T17:14:02.023Z","succeeded":true,"contentType":"application/octet-stream"}]}
