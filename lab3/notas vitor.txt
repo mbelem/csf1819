@@ -1,0 +1,14 @@
+Gif suspeito tcp stream 6
+DNS
+166	15.170308	89.101.160.4	10.20.0.165	DNS	369	Standard query response 0xe1fb A msnportal.112.2o7.net A 66.235.133.62 A 66.235.138.2 A 66.235.139.152 A 66.235.133.33 A 66.235.132.232 A 66.235.138.59 A 66.235.132.152 A 66.235.132.121 A 66.235.132.118 A 66.235.139.118 A 66.235.139.166 A 66.235.139.121 A 66.235.133.14 A 66.235.133.11 A 66.235.138.19 A 66.235.138.18 A 66.235.139.153 A 66.235.138.44
+
+Tcp stream 14
+Tcp stream 26 com demasiadas imagens gif suspeitas.
+
+Tcp stream 102 com referencias a banking.
+
+Contem uma imagem GIF como inframe (bastante suspeito)
+	Função javascript suspeita: inicialização de variável demasiado grande
+	Package 4679
+	Tcp stream 104 contém o que parece ser o executável de um programa para o Windows. Como é que sei? Contem a string "This program cannot be run in DOS mode". 	Qualquer executável recente tem isto!
+	Como encontrei? Procurei com um filtro de src no ip do servidor malicioso (10.20.0.111) package 5250.
