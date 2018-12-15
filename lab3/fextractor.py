@@ -348,7 +348,8 @@ if __name__ == '__main__':
         f.close()
     
         #Extract features. All features are non-negative numbers or X. 
-        features = extract(times, sizes)
+        features = extract(times, sizes,minusOne, plusOne,minusFraction,plusFraction,mean,std,median,lastTimeStamp,throughput,meanTime,stdTime,medianTime,meanReq, stdReq, medianReq, maxSucc,meanIn,stdIn,medianIn,maxSucc2,burstIn,burstOut,meanChunks,stdChunks,medianChunks,outChunks,maxChunks,percentil,percentilIn,percentilTime,percentilReq,percentilChunks,concentrationSum,meanInVector,stdInVector,meanOutVector,stdOutVector,inVector,outVector)
+
 
         #Replace X by -1 (Cai et al.)
         impute_missing(features)
