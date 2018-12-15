@@ -14,7 +14,7 @@ import statistics
     # Shall some feature be missing due to impossibility of its calculation, 
     #please replace its value with "X". It will be replaced later.
 
-def extract(times, sizes, minus, plus, minusf, plusf,mean,std,median,ts,t,meanTime,stdTime,mediaTime,meanReq,stdReq,medianReq,maxSucc,meanIn,stdIn,medianIn,maxSucc2,burstIn,burstOut,meanChunks,stdChunks,medianChunks,outChunks,maxChunks,percentil,percentilIn,percentilTime,percentilReq,percentilChunks):
+def extract(times, sizes, minus, plus, minusf, plusf,mean,std,median,ts,t,meanTime,stdTime,mediaTime,meanReq,stdReq,medianReq,maxSucc,meanIn,stdIn,medianIn,maxSucc2,burstIn,burstOut,meanChunks,stdChunks,medianChunks,outChunks,maxChunks,percentil,percentilIn,percentilTime,percentilReq,percentilChunks,concentrationSum,meanInVector,stdInVector,meanOutVector,stdOutVector,inVector,outVector):
     features = []
 
     #Total amount of cells in sequence
@@ -51,7 +51,7 @@ def extract(times, sizes, minus, plus, minusf, plusf,mean,std,median,ts,t,meanTi
     features.append(stdChunks)
     features.append(medianChunks)
     #soma de out + in + numero de cells
-    #features.append(len(times) + minus + plus)
+    features.append(len(times) + minus + plus)
     #numero de outgoing requests em cada chunk
     for i in range(0,100):
         try:
@@ -64,6 +64,21 @@ def extract(times, sizes, minus, plus, minusf, plusf,mean,std,median,ts,t,meanTi
     features.append(percentilTime)
     features.append(percentilReq)
     features.append(percentilChunks)
+    features.append(concentrationSum)
+    features.append(meanInVector)
+    features.append(stdInVector)
+    features.append(meanOutVector)
+    features.append(stdOutVector)
+    for i in range(0,500):
+        try:
+            features.append(inVector[i])
+        except:
+            features.append(0)
+    for i in range(0,500):
+        try:
+            features.append(outVector[i])
+        except:
+            features.append(0)
     return features
 
 def chunks(l, n):
@@ -243,6 +258,17 @@ if __name__ == '__main__':
                     if elm == 1:
                         counter += 1
                 outChunks.append(counter)
+            #chunks concentration sum
+            concentrationChunks = []
+            for lista in chunksList:
+                counter = 0 
+                for elm in lista:
+                    if elm == 1:
+                        counter += 1
+                concentrationChunks.append(float(counter)/len(lista))
+            concentrationSum = 0
+            for i in concentrationChunks:
+                concentrationSum += i    
             #com base nos chunks:
             #média
             counter = 0
@@ -260,8 +286,40 @@ if __name__ == '__main__':
             percentilChunks = statistics.median_grouped(outChunks)
             #chunk maximo
             maxChunks = max(outChunks)
+            #vetores com as posicoes de ingoing e outgoing
+            outVector=[]
+            inVector=[]
+            for i in range(0,len(sizes)):
+                if int(sizes[i]) == 1:
+                    outVector.append(i)
+                else:
+                    inVector.append(i)
+            #media do inVector
+            counter = 0
+            for i in inVector:
+                counter += i
+            meanInVector = float(counter)/len(inVector)
+            #desvio padrao do inVector
+            try:
+                stdInVector = statistics.stdev(inVector)
+            except:
+                stdInVector = 0
+            #media do outVector
+            counter = 0
+            for i in outVector:
+                counter += i
+            meanOutVector = float(counter)/len(outVector)
+            #desvio padrao do outVector
+            try:
+                stdOutVector = statistics.stdev(outVector)
+            except:
+                stdOutVector = 0
+            
+
+
+
             #Extract features. All features are non-negative numbers or X. 
-            features = extract(times, sizes,minusOne, plusOne,minusFraction,plusFraction,mean,std,median,lastTimeStamp,throughput,meanTime,stdTime,medianTime,meanReq, stdReq, medianReq, maxSucc,meanIn,stdIn,medianIn,maxSucc2,burstIn,burstOut,meanChunks,stdChunks,medianChunks,outChunks,maxChunks,percentil,percentilIn,percentilTime,percentilReq,percentilChunks)
+            features = extract(times, sizes,minusOne, plusOne,minusFraction,plusFraction,mean,std,median,lastTimeStamp,throughput,meanTime,stdTime,medianTime,meanReq, stdReq, medianReq, maxSucc,meanIn,stdIn,medianIn,maxSucc2,burstIn,burstOut,meanChunks,stdChunks,medianChunks,outChunks,maxChunks,percentil,percentilIn,percentilTime,percentilReq,percentilChunks,concentrationSum,meanInVector,stdInVector,meanOutVector,stdOutVector,inVector,outVector)
 
             #Replace X by -1 (Cai et al.)
             impute_missing(features)
